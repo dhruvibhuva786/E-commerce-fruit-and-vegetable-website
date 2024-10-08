@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    color: #2C2D2F;
+    background-color: #FEE4D2;
+}
+/* ---------------fristline----------------------- */
+.fristline{
+    background-color: #FFD1B2;
+   
+
+}
+.logo > img{
+    padding-left: 5%;
+    padding-top: 1.5%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    display: flex;
+}
+.mainmenu {
+    position: relative;
+    padding: 10px;
+}
+.menu{
+    position: absolute;
+    top: -45px;
+    left: 414px;
+}
+.menu li{
+    padding: 15px;
+    font-size: 20px;
+    
+}
+.menu li a:hover{
+    color: #EC7755;
+    transition: 0.1;
+}
+.menu li a{
+    color: #54575C;
+}
+.menu > span > li a{
+    color:#EC7755;
+}
+.submenu1
+{
+   visibility: hidden;
+    opacity: 0;
+}
+.menu > li:hover > .submenu1{
+
+    opacity: 1;
+    visibility: visible;
+}
+.maini{
+    position: relative;
+   
+}
+.icons{
+   
+    position: absolute;
+    top: -50px;
+    left: 990px;
+    font-size: 30px;
+    /* display: flex; */
+}
+.icons .i1 i:hover{
+    color:#EC7755
+
+}
+.icons .i2 i:hover{
+color: #EC7755;
+}
+.icons .i3 i:hover{
+color:#EC7755
+
+}
+/* -------------------------------second-------------------------------- */
+.backside{
+    padding-top: 80px;
+}
+.content{
+    font-weight: 700;
+}
+.backside h5{
+    font-size: 47px;
+    color: #2C2D2F;
+    margin-bottom: 8px;
+}
+.backside h2{
+    font-size: 80px;
+    margin-bottom: 16px;
+}
+.content > p{
+    letter-spacing: 1px;
+    margin-bottom: 19px;
+    position: relative;
+    font-weight: 400;
+}
+.content p::after{
+    content: "";
+    width: 190px;
+    height: 2px;
+    background-color: #EC7755;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    margin-bottom: 1px;
+}
+.btn{
+    background-color:#EC7755 ;
+    border-radius: 15px;
+    text-align: right !important;
+    padding: 12px 30px;
+   margin-left:67%;
+    transition: .3s;
+}
+.btn a{
+    font-size: 21px;
+    color: #fff;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: #fff;
+}
+.btn:hover a{
+    color: #000;
+}
+
+img{
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+}
+/* -------------------bread------------------- */
+ .discountcard{
+   padding:96px 0px 48px;
+}
+.img1 > .imgbg{
+    height: 339px;
+    width: 546px;
+    background-color: #FFF2E9;
+    box-shadow: 42px 42px 24px rgba(0, 0, 0, 0.01), 24px 24px 20px rgba(0, 0, 0, 0.03), 11px 11px 15px rgba(0, 0, 0, 0.04), 3px 3px 8px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-top: 3px solid #EC7755;
+    border-radius: 0px 0px 25px 25px;
+    overflow: hidden; 
+    padding: 10px;
+}
+.img1 img:hover{
+     transition: 0.3s;
+     transform: scale(1.2);
+}
+.content{
+    position: relative;
+}
+.discount{
+    position: absolute; 
+    top: -297px;
+    left: 25px;
+}
+.discount h2{
+    font-size: 61px;
+    color:#EC7755 ;
+    font-weight: 700;
+}
+.discount span{
+   
+    font-size: 27px;
+    color: #EC7755;
+    font-weight: 600;
+    margin: 0px 0px 0px 18px;
+}
+.discount h4{
+    padding: 1px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #2C2D2F;
+    margin-bottom: 32px;
+}
+.btn2{
+    /* display: inline-block; */
+    background-color: #EC7755;
+    width:200px;
+    height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px 32px;
+}
+.btn2 a{
+    font-size: 21px;
+    color: #fff;
+   text-align: center;
+    white-space: nowrap;
+}
+.btn2:hover{
+    background-color: #fff;
+}
+.btn2:hover a{
+    color: #000;
+}
+
+.img1 > .imgbg2{
+    height: 339px;
+    width: 546px;
+    background-color: #FFF2E9;
+    box-shadow: 42px 42px 24px rgba(0, 0, 0, 0.01), 24px 24px 20px rgba(0, 0, 0, 0.03), 11px 11px 15px rgba(0, 0, 0, 0.04), 3px 3px 8px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-top: 3px solid #EC7755;
+    border-radius: 0px 0px 25px 25px;
+    overflow: hidden; 
+    padding: 10px;
+}
+.img1 img:hover{
+     transition: 0.3s;
+     transform: scale(1.2);
+}
+.content{
+    position: relative;
+}
+.discount{
+    position: absolute; 
+    top: -297px;
+    left: 25px;
+}
+
+.discount h2{
+    font-size: 61px;
+    color:#EC7755 ;
+    font-weight: 700;
+}
+
+
+.btn2{
+    background-color: #EC7755;
+    width:200px;
+    height: 55px;
+    border-radius: 10px;
+    color: #fff;
+}
+.btn2:hover{
+    background-color: #fff;
+}
+.btn2:hover a{
+    color: #000;
+}
+/* -------------------------------------------product-area-------------------------------------------- */
+.heading{
+    margin-top: 48px;
+}
+.heading h2{
+    font-family: "Roboto", sans-serif;
+}
+.menu2 li a{
+    padding: 30px; 
+}
+ul li a{
+    color: #000;
+}
+ul li a:hover{
+    color: #EC7755;
+}
+span li a{
+    color: #EC7755;
+}
+.product-list .cards{
+    box-shadow: 42px 42px 24px rgba(0, 0, 0, 0.01), 24px 24px 20px rgba(0, 0, 0, 0.03), 11px 11px 15px rgba(0, 0, 0, 0.04), 3px 3px 8px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-top: 3px solid #EC7755;
+    border-radius: 0px 0px 25px 25px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    padding: 50px;
+}
+.cards{
+   position: relative;
+}
+.cards img{
+  height:300px;
+ object-fit: cover;
+}
+.cards span{
+    position: absolute;
+    top: 328px;
+    right: 0px;
+}
+.ctitle > p:hover{
+    color: #EC7755;
+}
+.ctitle .btn3 {
+    background-color: #EC7755;
+    color: #fff;
+
+}
+.ctitle > .btn3:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn3:hover a{
+    color:#000;
+}
+.slide{
+  visibility: hidden;
+  transform: translateY(-380px);
+  transition: .3s;
+  transform-origin: top;
+}
+.cards:hover .slide{
+    visibility: visible;
+    transform: translateY(-10px);
+}
+.icon2 i:hover{
+    color: #EC7755;
+} 
+.heading h2{
+    font-family:"Roboto Serif", serif;
+}
+/* ---------------footer-------------------- */
+.title{
+    font-family:"Roboto Serif", serif;
+}
+.list-unstyled link{
+    font-family:"Roboto Serif", serif;
+}   
+.title:hover{
+    transition: 0.1s;
+    color: #EC7755;
+
+}
